@@ -1,0 +1,49 @@
+.container {
+    width: 1150px;
+}
+
+.hero {
+    background-color: rgb(34, 104, 255);
+    text-align: center;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    color: white;
+    max-width: 500px;
+}
+
+.hero h1 span {
+    font-size: 50px;
+    max-width: unset;
+}
+
+.menu-bar{
+    background-color: white;
+    color: rgb(34, 104, 255);
+}
+
+.menu-bar .left {
+    float: left;
+}
+
+.menu-bar .right {
+    float: right;
+}
+
+.game-board {
+    background-color: rgb(31, 31, 31);
+}
+
+.game-board .colours {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px 2%;
+}
+
+.game-board .colours .colour-square {
+    width: 32%;
+    height: 100px;
+    color: brown;
+}
