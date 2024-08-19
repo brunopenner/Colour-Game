@@ -1,5 +1,16 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+h1 {
+    margin: 0;
+}
+
 .container {
-    width: 1150px;
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
 }
 
 .hero {
@@ -7,21 +18,29 @@
     text-align: center;
 }
 
+.hero .container {
+    text-align: center;
+}
+
 .hero h1 {
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 42px;
     color: white;
-    max-width: 500px;
 }
 
 .hero h1 span {
-    font-size: 50px;
+    font-size: 80px;
     max-width: unset;
 }
 
 .menu-bar{
     background-color: white;
     color: rgb(34, 104, 255);
+    height: 30px;
+}
+
+.menu-bar .container {
+    padding: 0;
 }
 
 .menu-bar .left {
@@ -32,6 +51,10 @@
     float: right;
 }
 
+.menu-bar  * {
+    height: 100%;
+}
+
 .game-board {
     background-color: rgb(31, 31, 31);
 }
@@ -39,11 +62,12 @@
 .game-board .colours {
     display: flex;
     flex-wrap:wrap;
-    gap: 10px 2%;
+    gap: 20px 3%;
 }
 
 .game-board .colours .colour-square {
-    width: 32%;
-    height: 100px;
-    color: brown;
+    width: 31%;
+    height: 200px;
+    background-color: brown;
+    border-radius: 30px;
 }
