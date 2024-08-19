@@ -71,3 +71,15 @@ h1 {
     background-color: brown;
     border-radius: 30px;
 }
+
+#game-over {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
